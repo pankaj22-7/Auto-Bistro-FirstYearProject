@@ -1,0 +1,128 @@
+body {
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    overflow-x: hidden;
+  }
+.Heading{
+    color:darkgray;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+    font-size: 25px;
+}
+h6{
+  text-align: center;
+  margin-top: -20px;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+  #myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    z-index: 2;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 30px;
+    top: 15px;
+    right: 35px;
+    }
+}
+span{
+    color:#818181;
+    text-align: left;
+    position: fixed;
+}
+ div hr{
+  color:#818181;    
+  font-weight: bolder;
+}
+.nobullets{
+  list-style-type: none;
+}
+.nobullets a{
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+footer {
+  background-color:black;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  text-decoration: none;
+  text-align: center;
+  height: 10px;
+  width:1500px;
+  bottom: 0px;
+  padding-bottom: 50px;
+    z-index: 1;
+    color: #fff;
+}
+h5{
+  color: #818181;
+  text-align: center;
+  margin-top: 350px;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+}
+.login a{
+  text-decoration:none;
+  color:#818181;
+  font-weight: bold;
+  text-align:right;
+  position: fixed
+}

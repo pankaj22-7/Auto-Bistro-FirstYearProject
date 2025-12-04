@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EBCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="homepage2.js"></script>
+    <title>Early Beginnings</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="Heading" href="#">
+            <h1><a href="homepage">Auto Bistro</a> </h1>
+            <h6>Fueling Your Passion for Cars</h6>
+            <h1>Early Beginnings</h1>
+            <!--<a href="homepage">Back to Homepage</a>-->
+            <div>
+                <hr>
+            </div>
+            <div id="myNav" class="overlay">
+                <span style="cursor:pointer" class="closebtn" onclick="closeNav()">&times;</span>
+                <div class="overlay-content">
+                    <a href="information.html">Information</a>
+                    <a href="History.html">History</a>
+                    <a href="types.html">Types</a>
+                    <a href="#">Updates</a>
+                    <a href="AboutUS.html">About Us</a>
+                </div>
+            </div>
+            <span class="menu" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9777; Menu</span>
+    </header>
+    <main>
+        <img src="#" id="myVideo" alt="">
+        <!--  <section>
+                    
+                    Add content specific to the Early Beginnings era -->
+        <p>The history of cars dates back to the late 19th century when pioneers like Karl Benz and Henry
+                        Ford introduced
+                        the world to the first automobiles. These early vehicles were revolutionary, changing the way
+                        people moved from
+                        one place to another.</p>
+                    <p>In the late 19th century, the seeds of an automotive revolution were sown, marking the dawn of a
+                        new era that
+                        would transform transportation and reshape the way people lived. The roots of the modern
+                        automobile can be
+                        traced back to this period, characterized by a flurry of innovations, experiments, and the
+                        relentless pursuit of
+                        a dream to create a self-propelled, efficient mode of transportation.
+
+                        At the forefront of this revolution were pioneers such as Karl Benz, who is credited with
+                        creating the first
+                        true automobile. In 1885, Benz unveiled his Motorwagen, a three-wheeled vehicle powered by an
+                        internal
+                        combustion engine fueled by gasoline. This historic creation marked the beginning of a journey
+                        that would
+                        ultimately redefine mobility on a global scale<span id="dots">...</span><span id="more">
+
+                        The late 19th century witnessed a surge in creativity and experimentation, with inventors and
+                        engineers across the world contributing to the evolving landscape of automotive technology. The
+                        concept of the automobile was not confined to a single mind but rather emerged as a collective
+                        vision fueled by the spirit of innovation.
+
+                        As the 19th century gave way to the 20th, the automotive landscape experienced a rapid
+                        evolution. The development of the assembly line by Henry Ford in the early 20th century
+                        revolutionized the production process, making automobiles more accessible to the general public.
+                        Mass production techniques allowed for cost reductions, and the Model T, introduced in 1908,
+                        became an iconic symbol of the automobile's democratization.
+
+                        The automotive industry continued to thrive and diversify, with various manufacturers emerging
+                        to meet the growing demand for automobiles. Innovations such as electric starters, better
+                        suspension systems, and advancements in engine technology contributed to the refinement of the
+                        driving experience. The automobile was no longer a luxury reserved for the elite; it became an
+                        integral part of everyday life for a broader segment of society.
+
+                        During this period, the rivalry between gasoline-powered and electric vehicles was palpable.
+                        Electric cars, with their quiet operation and absence of emissions, were popular among urban
+                        dwellers. However, the development of the electric starter and the discovery of vast oil
+                        reserves tilted the scales in favor of gasoline-powered vehicles, shaping the dominance of the
+                        internal combustion engine that persisted for decades.
+
+                        The automotive landscape of the late 19th and early 20th centuries was not without its
+                        challenges. Roads were often primitive and ill-suited for automobiles, prompting the need for
+                        infrastructure development. The construction of better roads and highways became a priority,
+                        paving the way for the widespread adoption of automobiles.
+
+                        The cultural impact of the automobile was profound. It facilitated unprecedented mobility,
+                        allowing people to explore beyond the confines of their immediate surroundings. The concept of
+                        the road trip emerged, symbolizing freedom and adventure. The automobile became a status symbol,
+                        a reflection of one's personality and aspirations.</span></p>
+                        <button onclick="myFunction()" id="myBtn">Read More</button>
+                    
+                    
+                        <div class="row">
+                        <div class="column">
+                            <img class="karl_benz"
+                                src="https://group.mercedes-benz.com/bilder/konzern/tradition/persoenlichkeiten/gruender-und-wegbereiter/carl-benz-w800xh0.jpg"
+                                alt="">
+                            <figcaption>
+                                <h5>Karl Benz</h5>
+                            </figcaption>
+                        </div>
+                        <div class="column">
+                            <img src="data:image/jpeg;base64,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"
+                                alt="">
+                            <figcaption>
+                                <h5>Henry Ford</h5>
+                        </div>
+                    </div>
+        <!-- Add more content as needed 
+
+
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2023 autobistro. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nova Square', sans-serif;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.Heading {
+  font-style: italic;
+  font-family: 'Nova Square', sans-serif;
+  z-index: 1;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Heading a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+h6 {
+  text-align: center;
+  margin-top: -20px;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  z-index: 2;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: lightgrey;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f5f5f5;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 50px;
+}
+
+.menu {
+  color: #f5f5f5;
+  text-align: left;
+  position: absolute;
+  top: 15%;
+  left: 2%;
+
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 30px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+div hr {
+  color: black;
+  font-weight: bolder;
+}
+
+.nobullets {
+  list-style-type: none;
+}
+
+.nobullets a {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-decoration: none;
+  text-align: center;
+  height: 10px;
+  width: 1500px;
+  bottom: 0px;
+  padding-bottom: 50px;
+  z-index: 1;
+  color: #fff;
+}
+
+h5 {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 350px;
+  font-size: 50px;
+  font-family: 'Nova Square', sans-serif;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+
+.welcome {
+  margin-top: 250px;
+  font-size: 50px;
+  font-family: 'Nova Square', sans-serif;
+  font-variant: small-caps;
+  text-align: left;
+}
+
+footer,
+.push {
+  width: 100vw;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 40%;
+  margin: 1%;
+  max-width: 300px;
+  padding: 15px;
+  background-color: ;
+  align-self: center;
+  justify-content: center;
+  border: 3px solid #f1f1f1;
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(167, 163, 163, 0.4);
+  /* Black w/opacity/see-through */
+  top: 27%;
+
+}
+
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: lightgoldenrodyellow;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #caf0f8;
+  color: rgba(0, 0, 0, 0.536);
+  text-align: center;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  opacity: 15;
+
+}
+
+.signin {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}

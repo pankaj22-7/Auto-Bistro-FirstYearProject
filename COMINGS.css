@@ -1,0 +1,87 @@
+ /* Set height to 100% for body and html to enable the background image to cover the whole page: */
+ body,
+ html {
+     height: 100%
+ }
+
+
+ header {
+     font-style: italic;
+     font-family: 'Nova Square', sans-serif;
+     ;
+     z-index: 1;
+     font-size: 25px;
+     text-align: center;
+     padding: 0px;
+     background-color: #ffffff;
+     color: #000000;
+     text-decoration: none;
+ }
+
+
+ .bgimg {
+     /* Background image */
+     background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+     /* Full-screen */
+     height: 100%;
+     /* Center the background image */
+     background-position: center;
+     /* Scale and zoom in the image */
+     background-size: cover;
+     /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+     position: relative;
+     /* Add a white text color to all elements inside the .bgimg container */
+     color: white;
+     /* Add a font */
+     font-family: "Courier New", Courier, monospace;
+     /* Set the font-size to 25 pixels */
+     font-size: 25px;
+ }
+
+ /* Position text in the top-left corner */
+ .topleft {
+     position: absolute;
+     top: 0;
+     left: 500px;
+     text-align: center;
+     font-family: 'Nova Square', sans-serif;
+     ;
+     font-size: 50px;
+     color: white;
+
+ }
+
+ .topleft a {
+     text-decoration: none;
+     color: white;
+ }
+
+ /* Position text in the bottom-left corner */
+ .bottomleft {
+     position: absolute;
+     bottom: 0;
+     left: 16px;
+     font-family: 'Nova Square', sans-serif;
+     ;
+     font-size: xx-large;
+     color: rgb(255, 255, 255);
+ }
+
+ /* Position text in the middle */
+ .middle {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+ }
+
+ /* Style the <hr> element */
+ hr {
+     margin: auto;
+     width: 40%;
+ }
+
+ p {
+     color: white;
+ }
