@@ -15,10 +15,6 @@ A stunning static website showcasing luxury and performance automobiles from wor
 
 [View Live Site](https://auto-bistro-first-year-project.vercel.app/)
 
-## 📸 Screenshots
-
-![Homepage](path/to/screenshot.jpg)
-*(Add screenshots of your website)*
 
 ## 🛠️ Technologies Used
 
@@ -31,10 +27,11 @@ A stunning static website showcasing luxury and performance automobiles from wor
 ## 🔧 Installation & Setup
 
 1. **Clone the repository**
-git clone https://github.com/yourusername/autobistro.git
+2. 
+git clone https://github.com/pankaj22-7/Auto-Bistro-FirstYearProject.git
 cd autobistro
 
-2. **Open locally**
+3. **Open locally**
 Simply open `index.html` in your browser:
 open index.html
 or
@@ -94,8 +91,8 @@ Contributions are welcome! Feel free to:
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Project Link: [https://github.com/yourusername/autobistro](https://github.com/yourusername/autobistro)
+- GitHub: https://github.com/pankaj22-7
+- Project Link: https://github.com/pankaj22-7/Auto-Bistro-FirstYearProject.git
 
 ## 🙏 Acknowledgments
 
